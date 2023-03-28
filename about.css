@@ -1,0 +1,27 @@
+.heading1 {
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans';
+    font-size: medium;
+}
+
+.ecommerce-logo {
+    height: 60px;
+}
+.heading2 {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+
+}
+.info{
+    font-size: medium;
+    margin-top: 10px;
+
+}
+.info p{
+    font-family: inherit;
+    font-size: medium;
+    margin: 50px;
+    justify-content: space-around;
+
+
+}

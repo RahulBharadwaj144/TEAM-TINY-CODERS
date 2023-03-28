@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Participants</title>
+	<style>
+		header {
+			font-size: 44px;
+			font-weight: bold;
+            justify-content: left;
+			margin-bottom: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+        .prompt {
+			text-align: center;	
+        }
+        form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+            
+            
+		}
+        .In1{
+            width: 20%;
+        }
+        .background{
+            background-image: url("https://coolbackgrounds.io/images/backgrounds/white/white-triangle-369b8d2d.jpg");
+            background-size: cover;
+        }
+        
+	</style>
+</head>
+<body class = 'background'>
+
+	<br><br><br><div class="prompt">
+		<header class="text-center">Event Details</header>
+    
+		
+
+	</div>
+	<form class="text">
+		<br><br><br><label for="name">Organizer Name :</label>
+		<input class = 'In1' type="text" id="name" name="name" required><br><br>
+
+		<label for="email">Organizer Email :</label>
+		<input class = 'In1' type="email" id="email" name="email" required><br><br>
+
+		<label for="phone">Organizer Contact No :</label>
+		<input class = 'In1' type="tel" id="phone" name="phone" required><br><br>
+
+
+
+		<label for="number">No of Participants :</label>
+		<input class = 'In1' type="text" id="text" name="text" required><br><br>
+
+        <label for="phone">Participants details form :</label>
+		<input class = 'In1' type="link" id="Link" name="Link" required><br><br>
+
+			<input  class="btn" onclick="window.location.href='bookingconfirm.html'"type="button" value="Submit">
+        
+	</form>
+</body>
+</html>
